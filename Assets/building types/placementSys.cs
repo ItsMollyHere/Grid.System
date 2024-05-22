@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class placementSys : MonoBehaviour
 {
-    [SerializeField] private GameObject mouseInd, cellIndicator;
+    [SerializeField]
+    private GameObject mouseInd, cellIndicator;
 
-    [SerializeField] private inputMan inputMan;
+    [SerializeField]
+    private inputMan inputMan;
 
-    [SerializeField] private GridLayout grid;
+    [SerializeField]
+    private GridLayout grid;
  
     private void Update()
     {
